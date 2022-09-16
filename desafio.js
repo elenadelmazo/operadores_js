@@ -282,14 +282,12 @@ function obtenerAreaRectangulo(alto, ancho) {
   return obtenerAreaRectangulo;
 }
 
-
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   var retornarPerimetro = lado * 4;
   return retornarPerimetro;
 }
-
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
@@ -298,7 +296,6 @@ function areaDelTriangulo(base, altura){
   return areaDelTriangulo;
 }
 
-
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
@@ -306,7 +303,6 @@ function deEuroAdolar(euro){
   var deEuroAdolar = euro * 1.20;
   return deEuroAdolar;
 }
-
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
@@ -321,6 +317,7 @@ function esVocal(letra){
   if (letra != "A" || "E" || "I" || "O" || "U" || "a" || "e" || "i" || "o" || "u") {
     return " Dato incorrecto"
   }
+
   if (letra.length !== 1) {
     return 'Dato incorrecto'
   }
